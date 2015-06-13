@@ -57,3 +57,7 @@ class MyCustomApp extends TestApp
 ```
 
 Please note that your custom class **must** extend the `Pixelindustries\PhpspecTestbench\App` class.
+
+## Thanks
+
+Thanks to @BenConstable for his great work with phpspec-laravel, to @crynobone for his fantastic work with testbench, and of course a big thank you to of the other contributors and to everyone who's reported issues and bugs with these projects. 
