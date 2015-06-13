@@ -2,6 +2,8 @@
 
 ![PXL icon](http://www.pixelindustries.com/img/logo.svg)
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/34a6b5fa-7283-44ee-a031-a3d13c070d91/mini.png)](https://insight.sensiolabs.com/projects/34a6b5fa-7283-44ee-a031-a3d13c070d91)
+
 ## Overview
 PHPSpec Testbench is built upon [benconstable/phpspec-laravel](https://github.com/BenConstable/phpspec-laravel) and will bridge the gap between PHPSpec and [orchestral/testbench](https://github.com/orchestral/testbench) by using the Laravel Application fixture as provided by testbench instead of having to need a fully prepared Laravel Application for yourself. With the `phpspec-testbench` extension, you can spec your Laravel Packages easily, whilst keeping all of the functionality that the `phpspec-laravel` extension brings.
 
