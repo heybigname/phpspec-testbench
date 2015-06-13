@@ -1,10 +1,8 @@
 <?php
 namespace Pixelindustries\PhpspecTestbench;
 
-use InvalidArgumentException;
 use PhpSpec\ServiceContainer;
 use PhpSpec\Laravel\Extension;
-use PhpSpec\Extension\ExtensionInterface;
 use PhpSpec\Laravel\Listener\LaravelListener;
 use PhpSpec\Laravel\Runner\Maintainer\LaravelMaintainer;
 use PhpSpec\Laravel\Runner\Maintainer\PresenterMaintainer;
@@ -28,7 +26,7 @@ class LaravelExtension extends Extension\LaravelExtension
 
         $container->setShared(
             'laravel',
-            function ($c) {
+            function (ServiceContainer $c) {
                 $config = $c->getParam('laravel_extension');
 
                 $laravel = new Laravel(
@@ -44,7 +42,7 @@ class LaravelExtension extends Extension\LaravelExtension
 
         $container->setShared(
             'runner.maintainers.laravel',
-            function ($c) {
+            function (ServiceContainer $c) {
                 return new LaravelMaintainer(
                     $c->get('laravel')
                 );
@@ -56,7 +54,7 @@ class LaravelExtension extends Extension\LaravelExtension
 
         $container->setShared(
             'runner.maintainers.presenter',
-            function ($c) {
+            function (ServiceContainer $c) {
                 return new PresenterMaintainer(
                     $c->get('formatter.presenter')
                 );
@@ -67,7 +65,7 @@ class LaravelExtension extends Extension\LaravelExtension
 
         $container->setShared(
             'event_dispatcher.listeners.laravel',
-            function ($c) {
+            function (ServiceContainer $c) {
                 return new LaravelListener($c->get('laravel'));
             }
         );
