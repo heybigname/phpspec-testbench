@@ -1,0 +1,21 @@
+{
+    "name": "pixelindustries/phpspec-testbench",
+    "description": "PHPSpec extension for usage with orchestra/testbench's Laravel fixture",
+    "require": {
+        "orchestra/testbench": "^3.0.0",
+        "benconstable/phpspec-laravel": "^2.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max van der Stam",
+            "email": "max@pixelindustries.com"
+        }
+    ],
+    "autoload": {
+       "psr-4": {
+           "Pixelindustries\\PhpspecTestbench\\": "src/"
+       }
+    },
+    "minimum-stability": "stable"
+}
