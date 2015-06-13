@@ -30,7 +30,7 @@ After the above configuration, simply write your specs the way you are used to, 
 
 ### Custom application class
 
-Should you need to do custom routines for the application bootstrapping, such as making sure your own developed service providers are registered, you can utilize the `class_name` setting for the `laravel_extension` key in your `phpspec.yml` file:
+Should you need to do custom routines for the application bootstrapping, such as making sure your own developed service providers are registered, you can utilize the `app_classname` setting for the `laravel_extension` key in your `phpspec.yml` file:
 
 ```yaml
 laravel_extension:
