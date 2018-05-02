@@ -1,9 +1,9 @@
 {
-    "name": "pixelindustries/phpspec-testbench",
+    "name": "heybigname/phpspec-testbench",
     "description": "PHPSpec extension for usage with orchestra/testbench's Laravel fixture",
     "require": {
         "orchestra/testbench": "^3.0.0",
-        "benconstable/phpspec-laravel": "^2.0.0"
+        "heybigname/phpspec-laravel": "^4"
     },
     "license": "MIT",
     "authors": [
