@@ -1,5 +1,7 @@
 # PHPSpec Testbench
 
+Cloned down to heybigname/phpspec-testbench to incorporate updated dependencies.
+
 ![PXL icon](http://www.pixelindustries.com/img/logo.svg)
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/34a6b5fa-7283-44ee-a031-a3d13c070d91/mini.png)](https://insight.sensiolabs.com/projects/34a6b5fa-7283-44ee-a031-a3d13c070d91)
