@@ -1,6 +1,6 @@
 # PHPSpec Testbench
 
-Cloned down to heybigname/phpspec-testbench to incorporate updated dependencies.
+Forked to `heybigname/phpspec-testbench` to incorporate updated dependencies.
 
 ![PXL icon](http://www.pixelindustries.com/img/logo.svg)
 
